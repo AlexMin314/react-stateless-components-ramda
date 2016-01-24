@@ -1,7 +1,7 @@
 ##[WIP] Compose React stateless functions using Ramda
 ###Warning! This just an experiment.
 
-###The goal: functionally compose React stateless functions to build components.
+###The goal: functionally compose React stateless functions to build new components, like you would do composing functions.
 
 What you need to know before continuing:
 
@@ -29,7 +29,7 @@ class List extends React.Component {
 }
 ```
 
-Or using __plain JavaScript function!__ __Did you know?__
+Or __using plain JavaScript functions!__ __Did you know?__
 
 ```javascript
 var List = function(children) {
