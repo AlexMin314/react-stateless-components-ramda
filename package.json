@@ -1,7 +1,7 @@
 {
   "name": "react-stateless-components-ramda",
   "version": "1.0.0",
-  "description": "###The goal: functionally compose React stateless functions to build components.",
+  "description": "Compose React stateless functions using Ramda",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
