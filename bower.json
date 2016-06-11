@@ -1,0 +1,21 @@
+{
+  "name": "react-stateless-components-ramda",
+  "description": "Compose React stateless functions using Ramda",
+  "main": "index.js",
+  "authors": [
+    "Mirko Mariani <mariani.mirko@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mirkodrummer/react-stateless-components-ramda",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
