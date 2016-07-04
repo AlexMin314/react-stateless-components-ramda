@@ -1,25 +1,25 @@
 {
   "name": "react-stateless-components-ramda",
   "version": "1.0.0",
-  "description": "Compose React stateless functions using Ramda",
-  "main": "index.js",
+  "description": "Functional Components with React stateless functions and Ramda",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "python -m SimpleHTTPServer",
-    "build": "browserify -d -e src/app.js -t babelify > dist/bundle.js",
-    "watch": "watchify -v -t babelify src/app.js -o dist/bundle.js"
+    "build": "browserify -d -e src/main.js -t babelify > dist/bundle.js",
+    "watch": "watchify -v -t babelify src/main.js -o dist/bundle.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.4.5",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babelify": "^7.2.0",
-    "browserify": "^13.0.0",
-    "ramda": "^0.19.1",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "classnames": "^2.2.5",
+    "ramda": "^0.21.0",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
     "watchify": "^3.7.0"
   }
 }
